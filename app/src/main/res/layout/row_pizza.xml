@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:padding="8dp"
+    android:background="#FFFFFF"
+    android:elevation="2dp"
+    android:layout_margin="4dp">
+
+    <!-- Image de la pizza -->
+    <ImageView
+        android:id="@+id/img_pizza"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/pizza1"
+        android:contentDescription="Image de la pizza" />
+
+    <!-- Nom de la pizza -->
+    <TextView
+        android:id="@+id/tv_nom_pizza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/img_pizza"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="Nom de la pizza" />
+
+    <!-- Prix et durée (métadonnées) -->
+    <TextView
+        android:id="@+id/tv_meta_pizza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_nom_pizza"
+        android:layout_toEndOf="@id/img_pizza"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:text="Prix : -- € | Durée : -- min" />
+
+</RelativeLayout>
