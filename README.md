@@ -94,7 +94,11 @@ Elle permet d'afficher une liste de pizzas avec leur nom, prix, durée et image,
 <img width="637" height="748" alt="test2" src="https://github.com/user-attachments/assets/f996e892-6af0-42bb-aa78-69894661eb5c" />
 
 ##   Démonstration vidéo
-https://drive.google.com/file/d/16q6wKSdbkbpCBKEIwJHNPHqRbQtRwhZ_/view?usp=sharing
+
+
+https://github.com/user-attachments/assets/12d18bfc-925f-4f36-9860-61f87e258cd2
+
+
 
 ##   Structure du projet
 - `app/src/main/java/com/example/pizzarecipes/classes/Produit.java` : Modèle de données
